@@ -5,7 +5,7 @@ on:
     types: [submitted]
 
 jobs:
-  add_label:
+  remove_label:
     runs-on: ubuntu-latest
     steps:
       - uses: actions-ecosystem/action-add-labels@v1
