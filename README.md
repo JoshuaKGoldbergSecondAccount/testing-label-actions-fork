@@ -146,6 +146,7 @@ npm i template-typescript-node-package
 import { greet } from "template-typescript-node-package";
 
 greet("Hello, world!");
+greet("Hello, world!");
 ```
 
 ## Development
