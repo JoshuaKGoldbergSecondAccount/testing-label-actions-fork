@@ -11,7 +11,8 @@ jobs:
       - uses: actions-ecosystem/action-remove-labels@v1
         with:
           labels: "status: waiting for author"
-      - run: |
+      - if: failure()
+        run: |
           echo "Don't worry about if the previous step failed."
           echo "See https://github.com/actions-ecosystem/action-remove-labels/issues/221."
 
