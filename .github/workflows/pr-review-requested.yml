@@ -1,4 +1,4 @@
-name: Add Label
+name: PR Review Requested
 
 on:
   pull_request_target:
