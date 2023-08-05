@@ -1,4 +1,4 @@
-<h1 align="center">Template TypeScript Node Package</h1>
+<h1 align="center">Fork Update</h1>
 
 <p align="center">A quickstart-friendly TypeScript template with comprehensive formatting, linting, releases, testing, and other great tooling built-in. ✨</p>
 
