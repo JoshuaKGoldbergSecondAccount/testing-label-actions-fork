@@ -11,6 +11,8 @@ jobs:
       - uses: actions-ecosystem/action-remove-labels@v1
         with:
           labels: "status: waiting for author"
+      - if: ${{ failure() }}
+        run: echo "Don't worry about the failure. See https://github.com/actions-ecosystem/action-remove-labels/issues/221."
 
 permissions:
   pull-requests: write
